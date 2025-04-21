@@ -16,5 +16,28 @@ namespace PP1_SistemaGestion
         {
             InitializeComponent();
         }
+
+        private void acerdaDeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmAcercaDe ventana = new frmAcercaDe();
+            ventana.Show();
+        }
+
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void nuevoClienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmNuevoCliente ventana = new frmNuevoCliente();
+            ventana.Show();
+        }
+
+        private void consultarListaDeClientesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmListaClientes ventana = new frmListaClientes();
+            ventana.Show();
+        }
     }
 }

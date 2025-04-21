@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PP1_SistemaGestion
 {
-    internal class cldEmpleado
+    internal class clsEmpleado
     {
     }
 }
